@@ -1297,10 +1297,6 @@ if flowFile != None:
 <key>slack_url</key>
 <value>https://slack.com/api/files.upload</value>
                             </entry>
-                            <entry>
-<key>token</key>
-<value>xoxp-274541754021-278278786148-401869799671-4f03470e29ecf9ad41bbcfc0bd9a8418</value>
-                            </entry>
                         </properties>
                         <runDurationMillis>0</runDurationMillis>
                         <schedulingPeriod>0 sec</schedulingPeriod>
