@@ -6,11 +6,10 @@ from bs4 import BeautifulSoup
 
 
 def find_image_link(data):
-    proto = 'https:'
     soup = BeautifulSoup(data, 'html.parser')
-    img = soup.select_one('div#comic > img')
+    img = soup.select_one('picture.gc-card__image > img')
     if img:
-        link = proto + img.get('src')
+        link = img.get('src')
         return link
 
 
